@@ -1,4 +1,4 @@
 # This is readme file
 
-so read me
+so read me or die
 
