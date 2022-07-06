@@ -3,10 +3,8 @@ from flask import Flask, render_template, request, redirect, session
 from flask_sqlalchemy import SQLAlchemy
 
 
-
 ###### APP & DB
 app = Flask(__name__)
-
 
 
 ###### HOMEPAGE
@@ -14,7 +12,6 @@ app = Flask(__name__)
 @app.route('/', methods=['POST', 'GET'])
 def index():
     return render_template('index.html')
-
 
 
 ###### RUN 
